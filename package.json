@@ -1,23 +1,30 @@
 {
-  "homepage": "https://fakherbaccouch.github.io/tragedelTest/",
-
-
+  "homepage": "http://fakherBaccouch.github.io/tragedelTestV2",
   "name": "nature-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.34",
+    "@fortawesome/free-solid-svg-icons": "^5.15.2",
+    "@fortawesome/react-fontawesome": "^0.1.11",
     "@icon/linea-basic": "^1.0.0-alpha.4",
     "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "gsap": "^3.6.0",
+    "jquery": "^3.6.0",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
+    "react-background-slider": "^2.0.0",
+    "react-background-slideshow": "^1.0.4",
     "react-countup": "^4.3.3",
     "react-dom": "^16.14.0",
     "react-particles-js": "^3.3.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
+    "react-slideshow-image": "^3.4.3",
     "react-visibility-sensor": "^5.1.1"
   },
   "scripts": {
@@ -25,7 +32,6 @@
     "build": "react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
