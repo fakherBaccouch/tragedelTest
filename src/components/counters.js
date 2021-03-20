@@ -1,43 +1,52 @@
 
 import React from "react";
+import StarHalfRoundedIcon from '@material-ui/icons/StarHalfRounded';
+import CheckCircleOutlineRoundedIcon from '@material-ui/icons/CheckCircleOutlineRounded';
+import DoneAllRoundedIcon  from '@material-ui/icons/DoneAllRounded';
+import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
+import AssignmentTurnedInOutlinedIcon from '@material-ui/icons/AssignmentTurnedInOutlined';
+import AssistantOutlinedIcon from '@material-ui/icons/AssistantOutlined';
+import { Statistic } from 'semantic-ui-react'
 
 const Counters = ()=>{
 
 return (
 
-    <div>
-              <section className="section-features">
-        <div className="row">
-          <div className="col-1-of-4">
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-world"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">Explore the world</h3>
-              <p className="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex neque delectus</p>
-            </div>
-          </div>
-          <div className="col-1-of-4">
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-compass"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">Meet nature</h3>
-              <p className="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex neque delectus</p>
-            </div>
-          </div>
-          <div className="col-1-of-4">
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-map"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">Find your way</h3>
-              <p className="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex neque delectus</p>
-            </div>
-          </div>
-          <div className="col-1-of-4">
-            <div className="feature-box">
-              <i className="feature-box__icon icon-basic-heart"></i>
-              <h3 className="heading-tertiary u-margin-bottom-small">Live a healthier live</h3>
-              <p className="feature-box__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex neque delectus</p>
-            </div>
-          </div>
+    <div style={{zIndex:"100"}} className="counters">
+        <div className="counters_box">
+                  <div className="two"> 
+                  <Statistic>
+    <Statistic.Value>100</Statistic.Value>
+    <Statistic.Label>Compétences</Statistic.Label>
+  </Statistic>
+                   </div>
+                   <span style={{background:"white",width:"2.5px",margin:"10px 10px"}}></span>   
+
         </div>
-      </section>
+        <div className="counters_box">
+                  <div> 
+                     
+                  <Statistic>
+    <Statistic.Value>32</Statistic.Value>
+    <Statistic.Label>Ans d'experience
+</Statistic.Label>
+  </Statistic>
+                   </div>
+                   <span style={{background:"white",width:"2.5px",margin:"10px 10px"}}></span>   
+
+        </div><div className="counters_box">
+                  <div > 
+                  <Statistic>
+    <Statistic.Value>50</Statistic.Value>
+    <Statistic.Label>Projets
+réalisés</Statistic.Label>
+  </Statistic>
+                   </div>
+                   <span style={{background:"white",width:"2.5px",margin:"10px 10px"}}></span>   
+
+        </div>
+                  
 
     </div>
 )

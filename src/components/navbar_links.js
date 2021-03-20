@@ -12,6 +12,12 @@ class Navbar_links extends Component {
     return (
 
 <div className="navbar_links">
+<div className="navbar_brand"> 
+
+<img style={{width:"70%"}} src={require('../images/logo.png')} />
+
+
+ </div>
 <ul>
     <li><a href="#">Acceuil</a ></li>
     <li><a href="#">Présentation de TRAGEDEL</a ></li>

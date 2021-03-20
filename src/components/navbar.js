@@ -12,12 +12,7 @@ class Navbar extends Component {
 
 <div className="navbar">
 <div style={{display:"flex",alignItems:"center",width:"100%"}}>
-<div className="navbar_brand"> 
 
-<img style={{width:"70%"}} src={require('../images/logo.png')} />
-
-
- </div>
 <div className="navbar_items">
 
 <div className="navbar_items_list" ><div><ContactPhoneIcon style={{fontSize:"40px"}}/></div><div><ul><li><h3>Phone Number</h3></li><li><p>23020527</p></li></ul></div></div>
