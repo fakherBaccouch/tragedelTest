@@ -1,0 +1,47 @@
+.counters{
+    width: 100%;
+    z-index: 5;
+    height: auto;
+    z-index: 10555555555555555550000;
+    background:rgb(246, 196, 9);
+    display: flex;
+    color: #3D5975;
+    padding: 0 ;
+    background-position: center;
+    align-items: center ;
+    justify-content: space-around;
+    &_box{
+        display: flex;
+        width: 33%;
+        height: auto;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px 20px ;
+        border-right: 3px solid white;       
+        
+    }
+    &_box:nth-last-child(1){
+border: none;                }
+    
+    
+    
+    }
+    @media only screen and (max-width: 768px) {
+        /* For desktop: */
+        .counters{
+            flex-direction: column;
+            align-items: center;
+
+            &_box{
+                display: flex;
+              width: 30%;
+                justify-content: space-around;
+                border-right: none;       
+                border-bottom: 3px solid white; 
+                padding: 5% 0 ;      
+
+            }
+        }
+
+
+    }

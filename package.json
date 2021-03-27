@@ -1,6 +1,6 @@
 {
-  "homepage": "http://fakherBaccouch.github.io/tragedelTestV2",
-  "name": "nature-project",
+  "homepage": "http://fakherBaccouch.github.io/tragedelFinalVersion",
+  "name": "tragedel-project",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,9 +13,11 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "aos": "^2.3.4",
     "compass": "^0.1.1",
     "gsap": "^3.6.0",
     "jquery": "^3.6.0",
+    "mdbreact": "^5.0.1",
     "node-sass": "^4.14.1",
     "react": "^16.14.0",
     "react-background-slider": "^2.0.0",
@@ -23,12 +25,16 @@
     "react-countup": "^4.3.3",
     "react-dom": "^16.14.0",
     "react-particles-js": "^3.3.0",
+    "react-responsive-carousel": "^3.2.15",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-slideshow-image": "^3.4.3",
+    "react-social-icons": "^5.0.0",
     "react-visibility-sensor": "^5.1.1",
+    "read-more-react": "^1.0.10",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.3"
+    "semantic-ui-react": "^2.0.3",
+    "social-media-icons-react": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
