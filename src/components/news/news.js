@@ -14,6 +14,8 @@ const News = () => {
           AOS.init({
              offset: 100, // offset (in px) from the original trigger point
              delay: 0, // values from 0 to 3000, with step 50ms
+             easing: 'ease-in-sine',
+
              duration: 1000 // values from 0 to 3000, with step 50ms
            });
       
@@ -27,7 +29,7 @@ const News = () => {
                 <div style={{ background: "#EDCD1F", width: "80px", height: "3px", textAlign: "center" }}></div>
 
             </div>
-            <div data-aos="fade-down" className={style.news_container}>
+            <div className={style.news_container}>
                 <div className={style.news_box}>
                     <div id={style.first} className={style.news_box_1}>
                         <div className={style.news_box_1_1}>

@@ -37,8 +37,11 @@ display: flex;
    text-justify: inter-word;
    color:#495057;
 
-   font-weight: 600;
-   line-height: 1.5;
+  
+   p{ font-weight: 600;
+    line-height: 3;
+
+   }
 }
 &_name{
     font-family: 'Satisfy', cursive;color:#E0E0E0;

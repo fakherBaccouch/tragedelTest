@@ -34,25 +34,25 @@
           }
           &_1{
             z-index: 555555;
-            width: 16%;
-            height: 28%;
+            width: 12%;
+            height: 30%;
             float: right;
             color: #ffffff;
+
     font-size: 24px;
     z-index: 5;
-    border-radius: 10px;
-   
+                
 
             &_1{
               height: 60%;
               background: rgb(246, 196, 9);
               text-align: center;
-              font-size: 1.2em;
+              font-size: 1em;
               font-weight: bolder;
             }
             &_2{
                 text-align: center;
-                font-weight: bold;
+                font-weight: bolder;
 
                 height: 40%;
                 background: #333333;
@@ -79,7 +79,7 @@ justify-content: space-between;
             height: 15%;
         }
         p{
-            font-size:0.9em;
+            font-size:1.1em;
             text-align: justify;
             height: 65%;
             width: 100%;
@@ -118,16 +118,15 @@ justify-content: space-between;
 .button {
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    width: 80%;
-    font-size: 12px;
+    width: 40%;
+    font-size: 14px;
     transition-duration: 0.75s;
     cursor: pointer;
     border-radius: 5px ;
     float:left;
-    height: 20%;
+    height: 25%;
     max-height: 20%;
 
   }
@@ -164,4 +163,26 @@ justify-content: space-between;
         }#third{
             background: url('../../images/n3.jpg'); 
             background-size: cover ;
+        }
+        
+        @media only screen and (max-width: 1246px) {
+
+
+
+
+
+.news_box_2{
+    p{
+        font-size: 0.9em;
+    }
+}
+
+
+
+
+
+
+
+
+
         }

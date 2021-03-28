@@ -5,6 +5,7 @@ import Navbar from "./components/nav/navbar"
 import Homepage from "./pages/homepage"
 import  './stylings/homePageStyle.scss'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add this line Here
 
 
 
@@ -14,7 +15,7 @@ function App() {
     <div className='myApp'>
       <Navbar_links/>
       <Homepage/>
-
+<ScrollUpButton style={{background:'#f6c409',border:"2px solid black",color:"black"}}/>
     </div>
   );
 }

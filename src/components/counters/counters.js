@@ -16,7 +16,7 @@ return (
         
         <Statistic>
 <Statistic.Value>
-<CountUp start={focus ? 0 : null} end={30} duration={4} redraw={true}>
+<CountUp start={focus ? 0 : null} end={30} duration={2} redraw={true}>
               {({ countUpRef }) => (
                 <VisibilitySensor onChange={(isVisible) => {if (isVisible) 
                  {setFocus(true);}}}>
@@ -36,7 +36,7 @@ d'experience
         
         <Statistic>
 <Statistic.Value>
-<CountUp start={focus ? 0 : null} end={100} duration={4} redraw={true}>
+<CountUp start={focus ? 0 : null} end={100} duration={2} redraw={true}>
               {({ countUpRef }) => (
                 <VisibilitySensor onChange={(isVisible) => {if (isVisible) 
                  {setFocus(true);}}}>
@@ -52,7 +52,7 @@ d'experience
 </div>   <div className={style.counters_box}>
         
         <Statistic>
-<Statistic.Value><CountUp start={focus ? 0 : null} end={50} duration={4} redraw={true}>
+<Statistic.Value><CountUp start={focus ? 0 : null} end={50} duration={2} redraw={true}>
               {({ countUpRef }) => (
                 <VisibilitySensor onChange={(isVisible) => {if (isVisible) 
                  {setFocus(true);}}}>

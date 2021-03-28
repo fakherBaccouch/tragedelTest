@@ -8,6 +8,8 @@ import Projects from "../components/projects/projects"
 import Footer from "../components/footer/footer"
 import Clients from '../components/clients/clients.js'
 import Ceo from '../components/ceo/ceo.js'
+import {VerticleButton as ScrollUpButton} from "react-scroll-up-button"; //Add this line Here
+
 
 const Homepage = () => {
     return (
@@ -16,12 +18,12 @@ const Homepage = () => {
 
 
             <Heading />
-            <Counters />
             <Services />
-            <Apropos />
-            <Projects/>
-            <Ceo/>
+            <Counters />
 
+            <Apropos />
+            <Ceo/>
+            <Projects/>
             <Clients />
             <News />
             <Footer />

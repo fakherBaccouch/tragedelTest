@@ -35,7 +35,7 @@ $text:#6e6d6d;
       align-items: center;
           display: flex;
           flex-direction: column;
-          height: 350px;
+          height: 475px;
           width: 32%;
           &_1{
                  width: 100%;
@@ -53,13 +53,15 @@ $text:#6e6d6d;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            background-size: cover;
+            background-position: center;
             h3{
                 line-height: 1.1em;
                 font-size: 22px;
                 color: $dark;
             width: 100%;
             font-weight: 700;
-            height: 10%;
+            height: 15%;
             text-transform: uppercase;
                
             }
@@ -67,16 +69,17 @@ $text:#6e6d6d;
                         line-height: 3;
               text-align: justify;
               font-weight: normal  !important;
-                font-size:0.8em ;
+                font-size:1.1em ;
                 font-weight: 450;
-                margin: 0 3%;
+                padding: 0 3%;
                 color: $text;
                 height: 70%;
                 line-height: 1.5;
-    
+    color: #495057;
             }
             button{
                 height: 20%;
+                width: 40%;
             }
           }
     }
@@ -383,4 +386,12 @@ $text:#6e6d6d;
              
               width: 80%;
       }
+      }
+      @media only screen and (max-width: 1120px) {
+.services_box_2 p{
+  font-size: 0.9em;
+}
+
+
+
       }

@@ -17,9 +17,7 @@ class Header extends Component {
                     return (
 <div >
      <header className={style.header}>
-    <div style={{zIndex:"1"}}>
-<BackgroundSlideshow style={{zIndex:"0"}} zIndex="1"  animationDelay={3000} images={[ image1, image2, image3 ]} />
-</div>
+ 
   
 <div style={{zIndex:"500000" ,display:'flex',justifyContent:'space-between',fontSize:'50px'}} className={style.text_box}>
  

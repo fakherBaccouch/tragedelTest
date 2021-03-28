@@ -31,7 +31,7 @@ const  Apropos =() => {
             <p id={style.p_s}>Depuis 1989, TRAGEDEL contribue avec son équipe d’ingénieurs et de consultants talentueux au succès de nombreux projet de construction. Intervenant avec une large gamme de services de qualité pour vous satisfaire tout au long d’une aventure partagée, nous garantissions la Nouveauté partout dans le monde des solutions innovantes, des services personnalisés et des conseils d’experts afin de mettre en place les bases solides d’un business long-termes soutenus par un capital humain à la hauteur de vos attentes et par des ressources haut de gamme.
 
 </p>
-            <button style={{ width: "55%", float: "right", display: "flex", marginLeft: "40%", background: "rgb(246, 196, 9)" }} className={`${style.button}  ${style.arrow}`}>Voir plus</button>
+            <button style={{ width: "50%",padding:'2% 0%', float: "right",  background: "rgb(246, 196, 9)" }} className={`${style.button}  ${style.arrow}`}>Voir plus</button>
 
 
           </div>

@@ -1,4 +1,4 @@
-import React from "react"
+import React,{useEffect} from "react"
 import style from './clients.module.scss'
 import image1 from '../../images/1.jpg'
 import image2 from '../../images/2.jpg'
@@ -12,12 +12,25 @@ import image9 from '../../images/9.jpg'
 import image10 from '../../images/10.jpg'
 import image11 from '../../images/11.jpg'
 import image12 from '../../images/12.jpg'
-
+import AOS from 'aos'
+import "aos/dist/aos.css";
 const Clients = () => {
+    useEffect(
+        ()=>{
+      
+          AOS.init({
+             offset: 4000, // offset (in px) from the original trigger point
+             delay: 0, // values from 0 to 3000, with step 50ms
+             duration: 3000,// values from 0 to 3000, with step 50ms,
+             easing: 'ease-in-sine'
 
+           });
+      
+        },[]
+      )
 
     return (
-        <div className={style.clients}>
+        <div data-aos="fade"  className={style.clients}>
              <div  className={style.clients_title}>
                 <h1 style={{ textTransform: 'uppercase', lineHeight: '2' }} >NOS CLIENTS</h1>
                 <div style={{ background: "#EDCD1F", width: "80px", height: "3px", textAlign: "center" }}></div>
